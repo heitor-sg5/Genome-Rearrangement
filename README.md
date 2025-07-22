@@ -94,13 +94,21 @@ Parameters such as k (k-mer length), max_distance, and min_size in `construct_sy
 - Reversal Distance and Breakpoints:
 
   Step 1: [+1 +7 -9 +11 +10 +3 -2 -6 +5 -4 -8] | Breakpoints: 11
+  
   Step 2: [+1 +2 -3 -10 -11 +9 -7 -6 +5 -4 -8] | Breakpoints: 9
+  
   Step 3: [+1 +2 -3 -10 -11 +9 -7 -6 -5 -4 -8] | Breakpoints: 7
+  
   Step 4 [+1 +2 +3 -10 -11 +9 -7 -6 -5 -4 -8] | Breakpoints: 6
+  
   Step 5: [+1 +2 +3 +4 +5 +6 +7 -9 +11 +10 -8] | Breakpoints: 5
+  
   Step 6 [+1 +2 +3 +4 +5 +6 +7 -11 +9 +10 -8] | Breakpoints: 4
+  
   Step 7 [+1 +2 +3 +4 +5 +6 +7 +8 -10 -9 +11] | Breakpoints: 2
+  
   Step 8: [+1 +2 +3 +4 +5 +6 +7 +8 +9 +10 +11] | Breakpoints: 0
+  
   Reversal distance: 7
 
 ---
