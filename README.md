@@ -65,7 +65,7 @@ Parameters such as k (k-mer length), max_distance, and min_size in `construct_sy
 - Constructs a proximity graph and finds connected components as candidate synteny blocks.
 - Computes signed permutations by ordering blocks by their genome coordinates and orientation.
 - Plots a genome dot-plot of all shared k-mers by orientation.
-- Time complexity: O(n + m + s²)
+- Time complexity: O(n + m + s^2)
 
 ### Unichromosomal Reversal Sorting with Breakpoints
 
